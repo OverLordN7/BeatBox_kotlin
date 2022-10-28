@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.BeatBox_kotlin" parent="Theme.MaterialComponents">
+    <style name="Theme.BeatBox_kotlin" parent="Theme.AppCompat">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimary">@color/dark_blue</item>
         <item name="colorPrimaryVariant">@color/dark_red</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -19,7 +19,7 @@
     </style>
 
     <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
-        <item name="android:background"> @color/dark_blue</item>
+        <item name="android:background"> @drawable/button_beat_box</item>
     </style>
     <style name="BeatBoxButton.Strong">
         <item name="android:textStyle">bold</item>
